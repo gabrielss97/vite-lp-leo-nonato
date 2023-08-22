@@ -724,6 +724,7 @@ header > p {
   border-radius: 15px;
   background: linear-gradient(43deg, #0161a2 0%, #0487df 100%);
   padding: 25px 36px;
+  opacity: 0.9;
 }
 
 .private__cards li h4 {
@@ -761,9 +762,11 @@ header > p {
 }
 
 .operate {
-  background: url(./assets/section-background.png);
+  background: url(/assets/morro-de-sp-fim-background.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 900%;
+  background-position-x: -1461px;
+  background-position-y: -772px;
   margin-top: -10px;
   padding: 55px 36px 32px;
 }
