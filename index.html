@@ -47,7 +47,7 @@
       <div class="header__banner-top">
         <span>Em busca</span>
         <p>
-          Parabéns só falta um passo para <br />
+          Parabéns só falta um passo para <br class="hide-on-desktop" />
           você conquistar R$1.103,10 por dia
         </p>
       </div>
@@ -72,9 +72,17 @@
             <p class="nav__text-career">TRADER ESTRATEGISTA</p>
           </div>
         </div>
+
+        <ul class="hide-on-mobile ul-menu">
+          <li>DAY TRADE DISCOVERY</li>
+          <li>DOLÁR ULTIMATE</li>
+          <li>PRIVATE</li>
+        </ul>
+
+        <button class="hide-on-mobile btn-menu">O EVENTO PRESENCIAL</button>
       </nav>
       <!-- ===== NAV ===== -->
-      <div class="header__banner-bellow-nav">
+      <div class="header__banner-bellow-nav hide-on-desktop">
         <h3>Mesmo errando até 50% das operações</h3>
       </div>
       <div class="header__banner-first-1000">
@@ -86,12 +94,13 @@
         <p>Busque seus primeiros <span>R$1.000</span> com day trade</p>
       </div>
       <h1>
-        Trader revela como buscar ganhos médios de R$ 1.103,10 por dia com mini
-        contrato de Dólar
+        Trader revela como buscar ganhos médios de R$ 1.103,10
+        <br class="hide-on-mobile" />
+        por dia com mini contrato de Dólar
       </h1>
       <p>
-        Ensinando estrátegia do zero para buscar esses ganhos, mesmo errando até
-        50% das operações
+        Ensinando estrátegia do zero para buscar <br class="hide-on-mobile" />
+        esses ganhos, mesmo errando até 50% das operações
       </p>
       <div class="header__testimonials">
         <video class="header__testimonial" controls width="288" height="512">
@@ -116,6 +125,13 @@
 
         <!-- Adicione outros vídeos conforme necessário -->
       </div>
+      <div class="hide-on-mobile banners-header">
+        <h2>Mesmo errando até 50% das operações</h2>
+        <div class="inside-banner">
+          <span>Em busca!</span>
+          <p>Parabéns falta só um passo para você buscar R$1.103,10 por dia</p>
+        </div>
+      </div>
     </header>
     <!-- ===== HEADER ===== -->
 
@@ -125,7 +141,8 @@
         <div class="discovery__left">
           <h2>Day Trade discovery</h2>
           <p>
-            Day Trade Discovery - é um curso projetado com dois propósitos
+            Day Trade Discovery - é um curso <br class="hide-on-mobile" />
+            projetado com dois propósitos <br class="hide-on-mobile" />
             essenciais:
           </p>
           <div class="discovery__titles">
@@ -187,10 +204,20 @@
               O <span>Day Trade Discovery</span> é a forma mais barata de
               descobrir se o day trade é pra você.
             </p>
-            <p class="discovery__sub-text">
-              Lembre-se essas aulas gratuitas serão enviadas para o seu e-mail e
-              as estratégias serão enviadas para o seu celular Via SMS.
-            </p>
+            <div style="width: 100%">
+              <p class="discovery__sub-text">
+                Lembre-se essas aulas gratuitas serão enviadas para o seu e-mail
+                e as estratégias serão enviadas para o seu celular Via SMS.
+              </p>
+            </div>
+            <div style="width: 100%">
+              <p class="alert-desktop hide-on-mobile">
+                ⚠ ALERTA: Esta oferta é POR TEMPO LIMITADO! Um curso que vale
+                quase R$ 2.000, agora ao alcance das suas mãos, SEM CUSTO. Se eu
+                fosse você, não perderia essa oportunidade. É um investimento
+                ZERO com potencial de retorno INFINITO.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -203,36 +230,47 @@
     <!-- ===== DOUBTS ===== -->
     <section class="doubts">
       <p>Ainda está com dúvidas?</p>
-      <h3>
-        O que estão falando do Leo Nonato <br />
-        na mídia
-      </h3>
-      <p class="sub-text">
-        Separamos algumas notícias para você sobre o Leo Nonato na mídia:
-      </p>
+      <div class="doubts__text-wrapper">
+        <h3>
+          O que estão falando do Leo Nonato <br class="hide-on-desktop" />
+          na mídia
+        </h3>
+        <p class="sub-text">
+          Separamos algumas notícias para você sobre o Leo Nonato na mídia:
+        </p>
+      </div>
+
       <div class="doubts__image-news">
-        <img src="./assets/material-1.png" alt="noticia 1" loading="lazy" />
-        <img src="./assets/material-2.png" alt="noticia 2" loading="lazy" />
-        <img src="./assets/material-3.png" alt="noticia 3" loading="lazy" />
+        <div class="material-1"></div>
+        <div class="material-2"></div>
+        <div class="material-3"></div>
       </div>
       <div class="doubts__brands">
         <div class="first-line">
-          <img src="./assets/logo-extra.png" alt="logo extra" />
-          <img src="./assets/logo-infomoney.png" alt="logo infomoney" />
-          <img src="./assets/logo-uol.png" alt="logo uol" />
+          <img class="extra" src="./assets/logo-extra.png" alt="logo extra" />
+          <img
+            class="infomoney"
+            src="./assets/logo-infomoney.png"
+            alt="logo infomoney"
+          />
+          <img class="uol" src="./assets/logo-uol.png" alt="logo uol" />
         </div>
         <div class="second-line">
-          <img src="./assets/logo-terra.png" alt="logo terra" />
-          <img src="./assets/logo-r7.png" alt="logo r7" />
-          <img src="./assets/logo-istoe.png" alt="logo istoe" />
-          <img src="./assets/logo-sd.png" alt="logo sd" />
-          <img src="./assets/logo-money-times.png" alt="logo money times" />
+          <img class="terra" src="./assets/logo-terra.png" alt="logo terra" />
+          <img class="r7" src="./assets/logo-r7.png" alt="logo r7" />
+          <img class="istoe" src="./assets/logo-istoe.png" alt="logo istoe" />
+          <img class="sd" src="./assets/logo-sd.png" alt="logo sd" />
+          <img
+            class="moneytimes"
+            src="./assets/logo-money-times.png"
+            alt="logo money times"
+          />
         </div>
       </div>
       <div class="doubts__banner">
         <p class="badge">UAU! Aqui é o passaporte consistência</p>
         <p class="text">
-          Você está preparado para um <br />
+          Você está preparado para um <br class="hide-on-desktop" />
           grande salto no seu desenvolvimento?
         </p>
       </div>
@@ -241,19 +279,23 @@
 
     <!-- ===== ULTIMATE ===== -->
     <section class="ultimate">
-      <div class="ultimate__welcome">
-        Bem-vindo ao caminho <br />
-        do sucesso!
+      <div class="ultimate__first">
+        <div class="ultimate__welcome">
+          Bem-vindo ao caminho <br />
+          do sucesso!
+        </div>
+
+        <h2>Dólar Ultimate</h2>
+        <p>
+          Tenha acesso ao conteúdo que te ensina como buscar ganhos médios de
+          R$1.103,10
+        </p>
+        <p>
+          Aqui você vai aprender como ter esses resultados mesmo errando 50% das
+          operações.
+        </p>
       </div>
-      <h2>Dólar Ultimate</h2>
-      <p>
-        Tenha acesso ao conteúdo que te ensina como buscar ganhos médios de
-        R$1.103,10
-      </p>
-      <p>
-        Aqui você vai aprender como ter esses resultados mesmo errando 50% das
-        operações.
-      </p>
+
       <div class="ultimate__sucess">
         <p class="ultimate__top">
           <img src="./assets/diagonal-arrow.svg" alt="seta diagonal" /> Passo
