@@ -764,11 +764,9 @@ header > p {
 }
 
 .operate {
-  background: url(/assets/morro-de-sp-fim-background.jpeg);
+  background: url(/assets/4.png);
   background-repeat: no-repeat;
-  background-size: 900%;
-  background-position-x: -1461px;
-  background-position-y: -772px;
+  background-size: cover;
   margin-top: -10px;
   padding: 55px 36px 32px;
 }
@@ -1633,11 +1631,188 @@ nav button.btn-menu {
     font-weight: 600;
     line-height: 77.28%;
   }
+
+  .ultimate-desktop {
+    padding: 86px 0;
+    background: #ededec;
+  }
+
+  .top {
+    display: flex;
+    gap: 88px;
+    margin-right: 105px;
+  }
+
+  .black-back {
+    min-width: 55%;
+  }
+
+  .black-back {
+    background: #272727;
+    min-width: 60%;
+    display: flex;
+    gap: 33px;
+  }
+
+  .left {
+    width: 45%;
+    border-right: 1px solid #636363;
+  }
+
+  .right {
+    width: 55%;
+    padding: 50px 33px;
+  }
+
+  .right .ultimate__text {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 102.78%;
+    margin-bottom: 3rem;
+  }
+
+  .right .ultimate__top {
+    font-size: 1.5rem;
+  }
+
+  .right .ultimate__investment {
+    font-size: 2rem;
+  }
+
+  .seven {
+    padding: 55px 27px 25px 43px;
+    border-bottom: 1px solid #636363;
+  }
+
+  .seven .discovery__text,
+  .ninety .discovery__text {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 102.78%;
+    text-align: left;
+  }
+
+  .seven .discovery__sub-text,
+  .ninety .discovery__sub-text {
+    color: #535353;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 102.78%;
+  }
+
+  .ninety {
+    padding: 55px 27px 25px 43px;
+  }
+
+  .seven .discovery__top-2,
+  .ninety .discovery__top-2 {
+    justify-content: center;
+  }
+
+  .ultimate__price {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 102.78%;
+  }
+
+  .top .text h5 {
+    color: rgba(83, 83, 83, 0.4);
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 102.78%;
+    margin-bottom: 31px;
+  }
+  .top .text h2 {
+    color: #535353;
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 102.78%;
+    margin-bottom: 13px;
+  }
+
+  .top .text p {
+    color: #535353;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 102.78%;
+    margin-bottom: 63px;
+  }
+
+  .top .text button {
+    background: #0794f5;
+    padding: 19px 21px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 102.78%;
+    border: none;
+  }
+
+  .top .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .private {
+    padding: 90px 72px;
+  }
+
+  .private .private__top {
+    color: #c2c2c2;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 102.78%;
+    padding: 13px 24px;
+  }
+
+  .private h2 {
+    color: #fff;
+    font-size: 7.313rem;
+    font-weight: 600;
+    line-height: 102.78%;
+  }
+
+  .private p {
+  }
+
+  .private__cards {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .private__cards li {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20.675px;
+    background: linear-gradient(136deg, #005188 0%, #027bce 100%);
+    opacity: 1;
+  }
+
+  .private__cards li button {
+    justify-content: space-between;
+  }
+
+  .private__cards li button img {
+    scale: 1.5;
+  }
 }
 
 @media (min-width: 1300px) {
   .header__testimonials {
     justify-content: center;
+  }
+
+  .ultimate__price {
+    font-size: 4.5rem;
   }
 
   .doubts__brands {
