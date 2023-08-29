@@ -396,6 +396,7 @@ header > p {
   gap: 7px;
   align-items: center;
   margin-top: 10px;
+  margin-top: 17px;
 }
 
 .discovery__discovery .discovery__text {
@@ -1367,9 +1368,54 @@ nav button.btn-menu {
   align-self: flex-start;
 }
 
+.bottom {
+  padding: 91px 114px;
+}
+
+.bottom > p {
+  color: #535353;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 102.78%;
+  margin-bottom: 60px;
+}
+
+.bottom ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 21px;
+  flex-wrap: wrap;
+}
+
+.bottom ul li {
+  background-color: var(--back-black);
+  display: flex;
+  color: var(--color-white);
+  padding: 10px;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  line-height: 102.78%;
+  white-space: nowrap;
+}
+
+.bottom ul li img {
+  margin-right: 10px;
+}
+
+.alerts__card.insta {
+  padding: 202px 20px 23px;
+}
+
 /* MEDIA QUERY */
 
 @media (min-width: 1024px) {
+  .alerts__card.insta {
+    padding: 262px 20px 23px;
+  }
+
   .hide-on-desktop {
     display: none;
   }
