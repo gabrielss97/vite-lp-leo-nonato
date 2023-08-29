@@ -19,6 +19,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 iframe {
   width: 288px;
   height: 512px;
@@ -103,7 +107,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 6px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -112,10 +116,10 @@ iframe {
   color: var(--color-white);
   border-radius: 15px;
   font-family: "Sora", sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 126.28%;
-  padding: 1px 4px;
+  padding: 2px 6px;
   margin-bottom: 4px;
 }
 
@@ -123,7 +127,7 @@ iframe {
   color: var(--color-white);
   text-align: center;
   font-family: "Sora", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   font-weight: 300;
   line-height: 126.28%;
 }
@@ -495,7 +499,7 @@ header > p {
 }
 
 .doubts__brands {
-  background-color: var(--back-darker-gray);
+  background-color: whitesmoke;
   padding: 16px 30px;
   border-radius: 15px;
   margin-bottom: 30px;
@@ -524,7 +528,7 @@ header > p {
 .doubts__banner {
   background-color: var(--back-black);
   width: 100%;
-  padding: 6px 0;
+  padding: 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -532,22 +536,24 @@ header > p {
 
 .doubts__banner .badge {
   border-radius: 12px;
-  padding: 3px 5px;
+  padding: 2px 6px;
   background: #027bce;
   color: var(--color-white);
   font-family: "Sora", sans-serif;
-  font-size: 0.5rem;
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 600;
   line-height: 126.28%;
   margin-bottom: 5px;
+  max-width: 275px;
+  text-align: center;
 }
 
 .doubts__banner .text {
   color: var(--color-white);
   text-align: center;
   font-family: "Sora", sans-serif;
-  font-size: 0.7rem;
-  font-weight: 300;
+  font-size: 0.95rem;
+  font-weight: 400;
   line-height: 126.28%;
 }
 
@@ -1153,7 +1159,7 @@ header > p {
 .banner-bottom {
   background-color: var(--back-black);
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -1165,17 +1171,18 @@ header > p {
   background: #027bce;
   color: var(--color-white);
   font-family: "Sora";
-  font-size: 0.4rem;
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 126.28%;
-  padding: 2px 4px;
+  padding: 2px 6px;
+  max-width: 275px;
 }
 
 .banner-bottom > p {
   color: var(--color-white);
   text-align: center;
   font-family: "Sora";
-  font-size: 0.5rem;
+  font-size: 0.95rem;
   font-weight: 500;
   line-height: 126.28%;
 }
@@ -2291,6 +2298,10 @@ nav button.btn-menu {
     scale: 1.7;
     margin-right: 15px;
   }
+
+  .operate-desktop .operate__top > img {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -2307,7 +2318,7 @@ nav button.btn-menu {
     align-items: center;
     padding: 71px 62px;
     border-radius: 25px;
-    background: var(--back-black);
+    background: whitesmoke;
     margin-bottom: 49px;
   }
 
