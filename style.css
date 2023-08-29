@@ -1524,17 +1524,17 @@ nav button.btn-menu {
     align-items: center;
     color: var(--color-white);
     font-family: "Sora", sans-serif;
-    font-weight: 600;
     line-height: 77.28%;
     padding: 10px;
     margin-bottom: 2rem;
   }
 
   .inside-banner span {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     border-radius: 31.481px;
     background: #027bce;
     padding: 3px 6px;
+    font-weight: 600;
   }
 
   .discovery__content-wrapper {
@@ -1706,7 +1706,6 @@ nav button.btn-menu {
   .doubts__banner .text {
     font-family: "Sora", sans-serif;
     font-size: 1rem;
-    font-weight: 600;
     line-height: 77.28%;
   }
 
@@ -2206,7 +2205,7 @@ nav button.btn-menu {
   }
 
   .banner-bottom .badge {
-    font-size: 0.625rem;
+    font-size: 0.7rem;
     font-weight: 600;
     line-height: 77.28%;
     padding: 5px 7px;
@@ -2214,7 +2213,6 @@ nav button.btn-menu {
 
   .banner-bottom > p {
     font-size: 1rem;
-    font-weight: 600;
     line-height: 77.28%;
   }
 
