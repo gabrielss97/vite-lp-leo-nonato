@@ -1364,11 +1364,6 @@ nav button.btn-menu {
 /* MEDIA QUERY */
 
 @media (min-width: 1024px) {
-  iframe {
-    width: 217px;
-    height: 385px;
-  }
-
   .hide-on-desktop {
     display: none;
   }
