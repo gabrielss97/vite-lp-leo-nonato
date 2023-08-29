@@ -58,7 +58,7 @@ iframe {
 
 .side-menu {
   position: fixed;
-  padding: 80px 28px;
+  padding: 102px 28px;
   top: 0;
   left: -203px; /* Oculto inicialmente */
   width: 203px;
@@ -108,7 +108,7 @@ iframe {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  width: 100%;
+  width: 100vw;
 }
 
 .header__banner-top > span {
@@ -1690,10 +1690,11 @@ nav button.btn-menu {
   }
 
   .doubts__banner .badge {
-    font-size: 1rem;
+    font-size: 0.7rem;
     line-height: 77%;
     padding: 6px;
     margin-right: 10px;
+    max-width: 300px;
   }
 
   .doubts__banner {
