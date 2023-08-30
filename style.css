@@ -1033,6 +1033,10 @@ header > p {
   background-repeat: no-repeat;
 }
 
+.doubts__brands img {
+  scale: 1.3;
+}
+
 .alerts__card.wpp {
   background-image: url(./assets/foto-wpp.png);
 }
