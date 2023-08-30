@@ -21,6 +21,7 @@
 
 body {
   overflow-x: hidden;
+  background: #ededec;
 }
 
 iframe {
@@ -196,11 +197,12 @@ nav {
   display: flex;
   align-items: center;
   background-color: var(--back-black);
-  padding: 5px;
+  padding: 5px 8px;
   gap: 5px;
   margin: 0 var(--body-p);
   max-width: 230px;
   margin-bottom: 1rem;
+  border-radius: 30px;
 }
 
 .header__banner-first-1000 p {
@@ -294,8 +296,7 @@ header > p {
 }
 
 .discovery__alert {
-  padding: 20px 60px;
-  border-radius: 25px;
+  padding: 20px 30px;
   border: 1px solid #fff;
   background: rgba(83, 83, 83, 0.2);
   backdrop-filter: blur(2px);
@@ -303,7 +304,7 @@ header > p {
   font-size: 0.7rem;
   font-weight: 400;
   line-height: 102.78%;
-  text-align: center;
+  text-align: left;
   margin-bottom: 22px;
 }
 
@@ -439,6 +440,7 @@ header > p {
   line-height: 102.78%;
   padding: 15px;
   margin-bottom: 20px;
+  border-radius: 30px;
 }
 
 .discovery__free img {
@@ -451,7 +453,7 @@ header > p {
   align-items: center;
   padding: 1.5rem;
   border-radius: 25px 25px 0px 0px;
-  background: var(--back-blue);
+  background: linear-gradient(180deg, #0161a2 0%, rgba(7, 148, 245, 0.79) 100%);
 }
 
 .doubts__image-news {
@@ -501,8 +503,8 @@ header > p {
 .doubts__brands {
   background-color: whitesmoke;
   padding: 16px 30px;
-  border-radius: 15px;
   margin-bottom: 30px;
+  width: 100vw;
 }
 
 .doubts__brands img {
@@ -1078,6 +1080,7 @@ header > p {
   padding: 6px 12px;
   display: flex;
   align-items: center;
+  border-radius: 30px;
 }
 
 .alerts__card button img {
@@ -1262,7 +1265,7 @@ header > p {
 }
 
 .ia-quant button {
-  border-radius: 6.351px;
+  border-radius: 30px;
   background: #0794f5;
   box-shadow: 0px 3.0960853099823px 5.160141944885254px 0px rgba(0, 0, 0, 0.25);
   border: none;
@@ -1351,6 +1354,7 @@ nav button.btn-menu {
 
 .doubts__brands img {
   width: 40px;
+  scale: 0.7;
 }
 
 .doubts__image-news > div {
@@ -1652,6 +1656,10 @@ nav button.btn-menu {
     margin: 100px 0;
     padding: 0 80px;
     align-items: center;
+  }
+
+  .doubts__brands img {
+    scale: 1;
   }
 
   .doubts .doubts__text-wrapper h3 {
