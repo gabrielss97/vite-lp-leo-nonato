@@ -502,10 +502,12 @@ header > p {
 
 .doubts__brands {
   background-color: whitesmoke;
-  padding: 16px 30px;
   margin-bottom: 30px;
   width: 100vw;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .doubts__brands .first-line {
@@ -1839,6 +1841,7 @@ nav button.btn-menu {
     font-weight: 600;
     line-height: 102.78%;
     border: none;
+    border-radius: 30px;
   }
 
   .top .text {
@@ -2312,6 +2315,12 @@ nav button.btn-menu {
   .operate-desktop .operate__top > img {
     margin-right: 10px;
   }
+
+  .doubts__brands {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -2326,8 +2335,6 @@ nav button.btn-menu {
   .doubts__brands {
     display: flex;
     align-items: center;
-    padding: 71px 62px;
-    border-radius: 25px;
     background: whitesmoke;
     margin-bottom: 49px;
   }
