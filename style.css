@@ -347,7 +347,7 @@ header > p {
 }
 
 .discovery__investment {
-  color: var(--color-black);
+  color: var(--color-white);
   text-align: center;
   font-weight: 600;
   line-height: 23.481px;
@@ -383,6 +383,7 @@ header > p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 
 .discovery__top-2 {
@@ -421,7 +422,7 @@ header > p {
 }
 
 .discovery__sub-text {
-  color: var(--color-black);
+  color: var(--color-white);
   text-align: center;
   line-height: 16.981px;
   margin-bottom: 20px;
@@ -462,7 +463,21 @@ header > p {
 }
 
 .doubts__image-news::-webkit-scrollbar {
-  display: none;
+  height: 12px;
+}
+
+div::-webkit-scrollbar-track {
+  background-color: var(--back-blue); /* Cor de fundo da trilha */
+}
+
+.doubts__image-news::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px solid transparent;
+  background-clip: content-box;
+}
+
+.doubts__image-news::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(109, 109, 109);
 }
 
 .doubts__image-news img {
@@ -945,7 +960,7 @@ header > p {
 }
 
 .nav__logo.logo-private.nav__logo-form {
-  align-self: flex-start;
+  width: 100%;
 }
 
 .form-section h2 {
@@ -1359,17 +1374,19 @@ nav button.btn-menu {
 }
 
 .material-1 {
-  background: url(./assets/material-1.webp), lightgray 50% / cover no-repeat;
+  background: url(./assets/materia1.webp), lightgray 50% / cover no-repeat;
 }
 .material-2 {
-  background: url(./assets/material-2.webp), lightgray 50% / cover no-repeat;
+  background: url(./assets/materia2.webp), lightgray 50% / cover no-repeat;
 }
 .material-3 {
-  background: url(./assets/material-3.png), lightgray 50% / cover no-repeat;
+  background: url(./assets/materia3.webp), lightgray 50% / cover no-repeat;
 }
-
-.form__wrapper-top {
-  align-self: flex-start;
+.material-4 {
+  background: url(./assets/materia4.webp), lightgray 50% / cover no-repeat;
+}
+.material-5 {
+  background: url(./assets/materia5.webp), lightgray 50% / cover no-repeat;
 }
 
 .bottom {
@@ -1416,18 +1433,18 @@ nav button.btn-menu {
 /* MEDIA QUERY */
 
 @media (min-width: 1024px) {
-  .material-1 {
-    background: url(./assets/material-1-desk.webp),
+  /* .material-1 {
+    background: url(./assets/materia1.webp),
       lightgray 50% / cover no-repeat;
   }
   .material-2 {
-    background: url(./assets/material-2-desk.webp),
+    background: url(./assets/materia2.webp),
       lightgray 50% / cover no-repeat;
   }
   .material-3 {
     background: url(./assets/material-3-desk.webp),
       lightgray 50% / cover no-repeat;
-  }
+  } */
 
   .alerts__card.insta {
     padding: 262px 20px 23px;
@@ -1690,7 +1707,9 @@ nav button.btn-menu {
 
   .doubts__image-news {
     gap: 22px;
-    padding-left: 72px;
+    margin-left: 72px;
+    padding-right: 50px;
+    padding-bottom: 10px;
   }
 
   .doubts__image-news img {
@@ -1797,7 +1816,7 @@ nav button.btn-menu {
 
   .seven .discovery__sub-text,
   .ninety .discovery__sub-text {
-    color: #535353;
+    color: white;
     font-size: 1rem;
     font-weight: 400;
     line-height: 102.78%;
