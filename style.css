@@ -460,6 +460,7 @@ header > p {
   overflow-x: scroll;
   width: 100%;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
 .doubts__image-news::-webkit-scrollbar {
@@ -1352,9 +1353,9 @@ footer .text-bottom {
 
 nav button.btn-menu {
   border-radius: 50px;
-  border: 1px solid #027bce;
-  background: rgba(30, 30, 30, 0.19);
-  color: var(--color-black);
+  border: 1px solid #0794f5;
+  background: #0794f5;
+  color: #fff;
   font-size: 1rem;
   font-weight: 600;
   line-height: 77.28%;
