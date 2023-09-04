@@ -628,7 +628,7 @@ div::-webkit-scrollbar-track {
 }
 
 .ultimate__investment {
-  color: var(--color-black);
+  color: var(--color-white);
   text-align: center;
   font-weight: 600;
   line-height: 23.481px;
@@ -971,6 +971,7 @@ div::-webkit-scrollbar-track {
   line-height: 24.366px;
   margin-bottom: 16px;
   width: 100%;
+  text-align: center;
 }
 
 .form-section > p {
@@ -1301,13 +1302,12 @@ footer .titles {
   gap: 6px;
   align-items: center;
   color: var(--color-white);
-  font-size: 0.7rem;
   margin-bottom: 14px;
 }
 
 footer p {
   color: var(--color-white);
-  font-size: 0.45rem;
+  font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 24px;
 }
@@ -2143,6 +2143,7 @@ nav button.btn-menu {
     font-size: 1rem;
     font-weight: 400;
     line-height: 102.78%;
+    text-align: center;
   }
 
   .form-section form p {
