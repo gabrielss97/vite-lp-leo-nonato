@@ -1334,8 +1334,13 @@ footer p {
 footer ul {
   list-style: none;
   display: flex;
-  gap: 5px;
+  gap: 10px;
   margin-bottom: 27px;
+  align-items: center;
+}
+
+footer ul li {
+  width: 30px;
 }
 
 footer h4 {
