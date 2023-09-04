@@ -22,6 +22,16 @@ body {
   background: #ededec;
 }
 
+a {
+  text-decoration: none;
+}
+
+.ul-menu a {
+  text-decoration: none;
+  color: none;
+  color: var(--color-black);
+}
+
 iframe {
   width: 288px;
   height: 512px;
@@ -493,7 +503,6 @@ div::-webkit-scrollbar-track {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 17.981px;
-  margin-bottom: 50px;
 }
 
 .doubts .doubts__text-wrapper .sub-text {
@@ -513,7 +522,7 @@ div::-webkit-scrollbar-track {
 }
 
 .doubts__brands {
-  background-color: whitesmoke;
+  background-color: #ededec;
   margin-bottom: 30px;
   width: 100vw;
   justify-content: center;
@@ -659,8 +668,8 @@ div::-webkit-scrollbar-track {
   list-style: none;
   display: flex;
   gap: 15px;
-  overflow-x: scroll;
   margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 
 .discovery__badges ul::-webkit-scrollbar {
@@ -693,7 +702,7 @@ div::-webkit-scrollbar-track {
   padding: var(--body-p);
   position: relative;
   overflow-x: clip;
-  z-index: -2;
+  z-index: 0;
 }
 
 .private__top {
@@ -1346,7 +1355,7 @@ footer .text-bottom {
   list-style: none;
   display: none;
   gap: 45px;
-  color: var(--color-black);
+  color: var(--color-black) !important;
   font-size: 1rem;
   font-weight: 600;
   line-height: 77.28%;
@@ -1367,10 +1376,9 @@ nav button.btn-menu {
   display: none;
 }
 
-.doubts__image-news > div {
-  width: 212px;
-  height: 236px;
-  flex-shrink: 0;
+.doubts__image-news div {
+  width: 400px;
+  height: 400px;
   background-size: cover;
   border-radius: 15px;
 }
@@ -1430,6 +1438,10 @@ nav button.btn-menu {
 
 .alerts__card.insta {
   padding: 202px 20px 23px;
+}
+
+.alerts__cards a {
+  text-decoration: none;
 }
 
 /* MEDIA QUERY */
@@ -1661,7 +1673,7 @@ nav button.btn-menu {
   }
 
   .discovery {
-    padding: 0 0 0 65px;
+    padding: 90px 72px;
   }
 
   .discovery__sub-text {
@@ -1687,7 +1699,7 @@ nav button.btn-menu {
     display: flex;
     width: 100%;
     gap: 100px;
-    margin: 100px 0;
+    margin: 50px 0;
     padding: 0 80px;
     align-items: center;
   }
@@ -1722,7 +1734,7 @@ nav button.btn-menu {
   }
 
   .doubts {
-    padding: 24px 0 0 0;
+    padding: 90px 72px;
   }
 
   .doubts__image-news > div {
@@ -1860,7 +1872,7 @@ nav button.btn-menu {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 102.78%;
-    margin-bottom: 63px;
+    margin-bottom: 20px;
   }
 
   .top .text button {
@@ -1879,7 +1891,7 @@ nav button.btn-menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .private {
@@ -2115,7 +2127,7 @@ nav button.btn-menu {
 
   .form__wrapper-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
   }
 
@@ -2128,7 +2140,7 @@ nav button.btn-menu {
   }
 
   .form-section {
-    padding: 55px 71px 37px;
+    padding: 90px 72px;
   }
 
   .form-section h2 {
@@ -2367,7 +2379,7 @@ nav button.btn-menu {
   .doubts__brands {
     display: flex;
     align-items: center;
-    background: whitesmoke;
-    margin-bottom: 49px;
+    background: #ededec;
+    margin-top: 30px;
   }
 }

@@ -3,6 +3,9 @@ const menuBtn = document.querySelector(".nav__menu img"); // o botão do menu ha
 const sideMenu = document.querySelector(".side-menu");
 const menuOverlay = document.querySelector(".menu-overlay");
 const bannerTopMenu = document.querySelector(".banner-top-menu");
+const discoveryMenuEL = document.querySelector("#discoveryMenu");
+const ultimateMenuEL = document.querySelector("#ultimateMenu");
+const privateMenuEL = document.querySelector("#privateMenu");
 
 // Função para mostrar o menu lateral
 function openMenu() {
@@ -21,3 +24,6 @@ function closeMenu() {
 // Adicione eventos de clique aos elementos
 menuBtn.addEventListener("click", openMenu);
 menuOverlay.addEventListener("click", closeMenu);
+discoveryMenuEL.addEventListener("click", closeMenu);
+ultimateMenuEL.addEventListener("click", closeMenu);
+privateMenuEL.addEventListener("click", closeMenu);
