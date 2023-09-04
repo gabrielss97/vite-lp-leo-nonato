@@ -383,7 +383,6 @@ header > p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
 }
 
 .discovery__top-2 {
