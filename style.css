@@ -961,6 +961,7 @@ div::-webkit-scrollbar-track {
 
 .nav__logo.logo-private.nav__logo-form {
   width: 100%;
+  justify-content: center;
 }
 
 .form-section h2 {
@@ -978,6 +979,7 @@ div::-webkit-scrollbar-track {
   font-size: 1.2rem;
   line-height: 123.28%;
   margin-bottom: 46px;
+  text-align: center;
 }
 
 .form-section form p {
